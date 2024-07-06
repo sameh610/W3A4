@@ -1,0 +1,46 @@
+#header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+
+.heading {
+  text-align: center;
+}
+
+.navbar-toggler {
+    float: right;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .navbar-toggler {
+        display: none;
+    }
+}
+
+/* Remove focus outline after clicking the button */
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Center text in dropdown menu */
+.navbar-nav .nav-link {
+    text-align: center;
+    width: 100%; /* Ensure full width for proper alignment */
+}
+
+/* Styling for sections */
+section {
+    background-color: gray;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: white; /* Adjust text color for better readability */
+}
